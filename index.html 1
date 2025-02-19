@@ -1,0 +1,38 @@
+<body>
+    <div class="header-actions header-actions--right">
+        <a href="https://www.linkedin.com/in/angeles-ponpa-7b1b1b1b1/" class="header-action">LinkedIn</a>
+        <a href="https://x.com/angelesponpa" class="header-action">X</a>
+        <a href="https://www.instagram.com/angelesponpa/" class="header-action">Instagram</a>
+        <a href="https://www.tiktok.com/angelesponpa" class="header-action">Tik Tok</a>
+    </div>
+</body>
+
+
+
+
+<head>
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head> 
+
+
+
+<h1>Angeles C. Ponpa</h1>
+    <h2>Journalist</h2>
+    <p>Specializing in Politics, Immigration and 
+        Foreign Affairs
+    </p>
+    
+    <body>
+        <div id="content">
+        
+        <div id="nav-bar">
+        <div class= "nav-button">Latest</div>
+        <div class="nav-button">Data/Visuals</div>
+        <div class="nav-button">Articles</div>
+        <div class="nav-button">About Me</div>
+
+        <div class="header-actions header-actions--right">
+
+            </div>
