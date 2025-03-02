@@ -15,15 +15,14 @@ h4 {
   font-size: 1em;
   color: #0c0c0c;
   font-family: 'Times New Roman';
+  text-align: left;
+p {
+  font-size: 0.5em;
+  color: #000000;
+  font-family: 'times new roman';
   text-align: right;
 }
 
-p2 
-font-size: 0.5em;
-color: #000000;
-font-family: 'times new roman';
-text-align: right;
-}
 
  /*desktop*/
 #content {
