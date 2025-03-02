@@ -1,0 +1,36 @@
+body {
+    padding-left: 10%;
+    padding-right:10%;
+    background-color: #834405;
+  }
+
+h3 {
+    font-size: 5em;
+    color: #070707;
+    font-family: 'Times New Roman';
+    text-align: center;
+  }
+
+ /*desktop*/
+#content {
+  width: 50%;
+  margin: auto; 
+  line-height: 1.5em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/*phone*/
+@media (orientation: portrait) {
+
+  #content {
+      width: 100%;
+  line-height: 1.5em;
+  font-size: 1.5em;}
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row; 
+  
+} 
