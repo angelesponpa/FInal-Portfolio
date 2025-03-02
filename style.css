@@ -3,6 +3,15 @@ body {
     padding-right:10%;
     background-color: #f6f3f0;
   }
+
+
+    .tiktok-logo,
+    .instagram-logo,
+    .linkedin-logo,
+    .youtube-logo {
+      width: 15px;
+      height: auto;
+  }
   
   h1 {
     font-size: 3.5em;
@@ -27,9 +36,17 @@ body {
 
   div {
     color: #0c0c0c;
-
   }
 
+  a:link{
+    text-decoration:none;
+    color: inherit;
+  }
+
+  a:visited {
+    text-decoration:none;
+    color:inherit;
+  }
 
 /*desktop*/
 #content {
