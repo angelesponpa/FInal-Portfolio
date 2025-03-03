@@ -1,10 +1,10 @@
 function scrollImages(direction) {
-    const gallery = document.querySelector('.img-container');
-    const images = document.querySelectorAll('.img-container img');
+    const gallery = document.querySelector('.image-gallery');
+    const images = document.querySelectorAll('.image-gallery img');
     const totalImages = images.length;
-    const visibleImages = 2; // Number of images to show at a time
+    const visibleImages = 2;
 
-    currentIndex += direction;
+    currentIndex += direction *visibleImages;
 
     if (currentIndex < 0) {
         currentIndex = 0;
