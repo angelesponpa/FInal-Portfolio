@@ -4,25 +4,126 @@ body {
     background-color: #f6f3f0;
   }
 
+  
+  .tiktok-logo,
+  .instagram-logo,
+  .linkedin-logo,
+  .youtube-logo {
+    width: 15px;
+    height: auto;
+}
+
+
+h1 {
+  font-size: 3.5em;
+  color: #8d4d31;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #0c0c0c;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+div {
+  color: #0c0c0c;
+}
+
+a:link{
+  text-decoration:none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration:none;
+  color:inherit;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 h3 {
-    font-size: 3.5em;
+    font-size: 1em;
     color: #070707;
     font-family: 'Times New Roman';
-    text-align: center;
+    text-align: left;
   }
 
 h4 {
   font-size: 1em;
-  color: #0c0c0c;
+  color: #000000;
   font-family: 'Times New Roman';
   text-align: left;
-p {
-  font-size: 0.5em;
-  color: #000000;
-  font-family: 'times new roman';
-  text-align: right;
 }
 
+.description-large {
+  font-size: 1em;
+  color: #000000;
+  font-family: 'times new roman';
+  text-align: center;
+}
+
+.description-small {
+  font-size: 0.75em;
+  color: #000000;
+  font-family: 'times new roman';
+  text-align: left;
+}
+
+.scroll-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.image-gallery {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.image-gallery img {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
 
  /*desktop*/
 #content {
@@ -39,11 +140,11 @@ p {
   #content {
       width: 100%;
   line-height: 1.5em;
-  font-size: 1.5em;}
+  font-size: 1.5em;
+  }
 }
 
 #nav-bar {
   display: flex;
   flex-direction: row; 
-  
-} 
+}
