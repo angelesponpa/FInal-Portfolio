@@ -160,7 +160,6 @@ border-radius: 8px;
   margin: auto; 
   line-height: 1.5em;
   font-size: 1.5em;
-  text-align: center;
 }
 
 /*phone*/
@@ -177,6 +176,7 @@ border-radius: 8px;
 #nav-bar {
   display: flex;
   flex-direction: row; 
+  text-align: center;
 }
 
 .nav-button {
