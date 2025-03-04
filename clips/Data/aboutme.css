@@ -109,7 +109,14 @@ body {
     font-weight: bold;
 }
 
+.instagram-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .instagram {
-    margin: auto;
-    display: block;
+    flex: 1;
+    min-width: 300px;
 }
