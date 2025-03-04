@@ -177,7 +177,6 @@ border-radius: 8px;
 #nav-bar {
   display: flex;
   flex-direction: row; 
-  text-align: center;
 }
 
 .nav-button {
