@@ -34,6 +34,20 @@ body {
     text-align: center;
   }
 
+  h6 {
+    font-size: 1.5em;
+  color: #000000;
+  font-family: 'Times New Roman';
+  text-align: left;
+}
+
+.description-small {
+    font-size: 1em;
+  color: #000000;
+  font-family: 'times new roman';
+  text-align: left;
+}
+
   div {
     color: #0c0c0c;
   }
@@ -93,4 +107,9 @@ body {
     color: black;
     text-decration: none;
     font-weight: bold;
+}
+
+.instagram {
+    margin: auto;
+    display: block;
 }
