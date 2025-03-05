@@ -77,6 +77,39 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* styles.css */
+.substack-embed-container {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 20px auto; /* Centers the embed horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Border around the embed */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .substack-post-embed p {
+    margin: 0 0 10px; /* Spacing between paragraphs */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+  }
+  
+  .substack-post-embed a[data-post-link] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6719; /* Substack's orange color */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .substack-post-embed a[data-post-link]:hover {
+    background-color: #e65c17; /* Darker orange on hover */
+  }
 
 /*desktop*/
 #content {
