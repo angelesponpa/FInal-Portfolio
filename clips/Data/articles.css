@@ -41,6 +41,12 @@ body {
     text-align: left;
   }
 
+  .description-below {
+    font-size: 1em;
+    color: #0c0c0c;
+    font-family: 'times new roman';
+    text-align: left;
+  }
 
   div {
     color: #0c0c0c;
