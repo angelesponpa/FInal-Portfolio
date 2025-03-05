@@ -1,0 +1,104 @@
+body {
+    padding-left: 10%;
+    padding-right:10%;
+    background-color: #f6f3f0;
+  }
+
+
+    .tiktok-logo,
+    .instagram-logo,
+    .linkedin-logo,
+    .youtube-logo {
+      width: 15px;
+      height: auto;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    color: #8d4d31;
+    font-family: 'Times New Roman';
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #0c0c0c;
+    font-family: 'Times New Roman';
+    text-align: center;
+  }
+
+  p {
+    font-size: 1em;
+    color: #0c0c0c;
+    font-family: 'times new roman';
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    color: #0c0c0c;
+    font-family: 'times new roman';
+    text-align: left;
+  }
+
+
+  div {
+    color: #0c0c0c;
+  }
+
+  a:link{
+    text-decoration:none;
+    color: inherit;
+  }
+
+  a:visited {
+    text-decoration:none;
+    color:inherit;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*desktop*/
+#content {
+    width: 50%;
+    margin: auto; 
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*phone*/
+@media (orientation: portrait) {
+
+    #content {
+        width: 100%;
+    line-height: 1.5em;
+    font-size: 1.5em;}
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.nav-button {
+    margin: auto;
+    color: black;
+    text-decration: none;
+    font-weight: bold;
+}
