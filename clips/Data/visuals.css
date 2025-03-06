@@ -88,7 +88,7 @@ h4 {
 .scroll-container {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   white-space: nowrap;
 }
 
@@ -104,25 +104,6 @@ h4 {
   box-sizing: border-box;
 }
 
-.scroll-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 18px;
-
-}
-
-.scroll-button.left {
-  left: 0;
-}
-
-.scroll-button.right {
-  right: 0;
-}
 
 h5 {
   font-size: 1em;
